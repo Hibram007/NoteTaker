@@ -1,9 +1,7 @@
 const { notStrictEqual } = require('assert');
 const express = require('express');
 const fs = require("fs");
-const path = require('path')
-// Specifically for Heroku Deployment
-const port = process.env.port || 3001
+const path = require('path');
 
 // initialize an express application
 const app = express();
@@ -46,9 +44,11 @@ app.delete("/api/notes/:id", (req, res) => {
             })
 });
 // html  routes - For pre-made module 11 code
+// notes .html for second page 
     app.get('/notes', (req, res) => {
         res.sendFile(path.join(__dirname, 'public\notes.html'));
     })
+    // for index.html ( homepage)
     app.get('*', (req, res) => {
         res.sendFile(path.join(__dirname, 'public\index.html'));
     })
