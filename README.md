@@ -17,5 +17,21 @@ https://floating-reaches-75423.herokuapp.com/notes
 ## Deployed app URL (Second attempt)
 https://salty-peak-47105.herokuapp.com/
 
+## Original Github Repo
+https://github.com/Hibram007/NoteTaker
+
+## Second Github Repo
+https://github.com/Hibram007/NoteTakerV2
+
 ## Screen shot
 ![notetaker pic](https://user-images.githubusercontent.com/87105978/144132337-c2eece6e-b785-4be7-96ae-1d77880d76ea.png)
+
+## References:
+- Moduele 11 starter code and module
+- Github
+- Youtube
+- Class office hours
+- W3 Schools
+- Stack overflow
+- Heroku docs
+- Project 2
